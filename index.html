@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Des. Project 2024</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </head>
+
+<body class="frontPage">
+    <h1 class="rainbow-text">My First Website</h1>
+    <p class="firstParagraph">I'm very excited to start my first website.</p>
+    
+    <p class="secondParagraph">Please take a look around via the links provided!</p>
+
+    
+    <button id="toggleButton">Make Buttons Blink</button>
+    
+    
+    <div id="buttonContainer">
+        <a href="pages/contact.html" class="contactButton" target="_blank">Contact Page</a>
+        <a href="pages/about.html" class="aboutButton" target="_blank">About Me</a>
+        <a href="https://www.youtube.com/watch?v=cvKdxG6yS80" class="funButton" target="_blank">~Fun Button~</a>
+    </div>
+
+    <script>
+     $('#toggleButton').click(function() {
+        $('#buttonContainer').hide(500).show(300); 
+      });
+    </script>
+    <script src="Semester Project Fall 2024\index.js"></script>
+</body>
+</html>

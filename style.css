@@ -1,0 +1,142 @@
+.frontPage {
+    background-image: url('images/George-Costanza-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.rainbow-text {
+    font-size: 3em; 
+    font-weight: bold;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400%; 
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow-animation 5s ease-in-out infinite;
+    
+}
+
+@keyframes rainbow-animation {
+    0% {
+        background-position: 0% 50%; 
+    }
+    100% {
+        background-position: 100% 50%; 
+    }
+}
+
+
+.firstParagraph, .secondParagraph, .aboutParagraph {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+    max-width: 100%; 
+    box-sizing: border-box; 
+}
+
+.aboutParagraph {
+    color: yellow;
+    background-color: rgba(244, 8, 8, 0.5); 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.firstParagraph {
+    color: blue;
+    background-color: rgba(11, 158, 40, 0.7); 
+}
+
+.secondParagraph {
+    color: magenta;
+    background-color: rgba(47, 25, 117, 0.7); 
+}
+.contactButton {
+    display: inline-block; 
+    padding: 12px 28px;
+    font-size: 19px;
+    color: black;
+    background-color: #45fb41; 
+    border: 2px solid rgb(45, 3, 214);
+    border-radius: 60%;
+    text-align: center;
+    text-decoration: none; 
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.contactButton:hover {
+    background-color: rgb(186, 14, 209);
+    color: white;
+}
+
+.aboutButton {
+    display: inline-block; 
+    padding: 12px 28px;
+    font-size: 19px;
+    color: white;
+    background-color: #2b10c0; 
+    border: 2px solid red;
+    border-radius: 60%;
+    text-align: center;
+    text-decoration: none; 
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.aboutButton:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.myHero {
+    display: inline-flex;
+    background-color: rgb(237, 24, 116);
+    color: black;
+    border: 2px solid #ef0505;
+}
+
+.myHero:hover {
+    color: rgb(246, 241, 240);
+    background-color: salmon;
+    border: 2px solid blue;
+}
+
+.beepMe {
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400%; 
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow-animation 5s ease-in-out infinite; 
+}
+
+.contactBackground {
+    background-color: rgb(245, 245, 9);
+    padding: 10px; 
+    border-radius: 20px;
+    border: 2px solid #f30808;
+    max-width: 500px; 
+   
+}
+.funButton {
+    display: inline-block; 
+    padding: 12px 28px;
+    font-size: 19px;
+    color: white;
+    background-color: #f45d0c; 
+    border: none;
+    border-radius: 60%;
+    text-align: center;
+    text-decoration: none; 
+    cursor: pointer;
+    transition-duration: 0.3s;
+    border: 2px solid black;
+}
+.funButton:hover{
+    background-image: url('images/Rainbow.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
